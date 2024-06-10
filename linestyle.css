@@ -1,5 +1,7 @@
 body {
-    background-color: #d13333;
+    background: rgb(0,0,0);
+    background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(139,0,0,1) 100%);
+
     color: white;
     margin: 0;
     padding: 0;
@@ -9,6 +11,18 @@ body {
 span {
     font-weight: bold;
     color: #2b88d4;
+}
+.i-did {
+    margin-left: 15px;
+    margin-bottom: 25px;
+    transition: 0.5s;
+}
+.i-did:hover {
+    color: #ffa600;
+}
+.loveyou {
+    margin-left: 15px;
+    font-size: 40px;
 }
 h1 {
     text-align: center;
@@ -290,4 +304,19 @@ footer {
         padding: 4px 8px;
     }
 
+}
+
+@keyframes did {
+    0% {
+        transform: translateX(0);
+        color: #fffb00;
+    }
+    50% {
+        transform: translateX(600px);
+        color: red;
+    }
+    100% {
+        transform: translateX(0);
+        color: #ffffff;
+    }
 }
