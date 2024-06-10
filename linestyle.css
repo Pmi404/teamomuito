@@ -22,6 +22,7 @@ span {
 }
 .loveyou {
     margin-left: 10px;
+    display: flex;
 }
 h1 {
     text-align: center;
