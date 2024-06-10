@@ -320,3 +320,19 @@ footer {
         color: #ffffff;
     }
 }
+
+.back {
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 15px;
+    justify-content: center;
+}
+.back a {
+    text-decoration: none;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 20px;
+    border: 3px solid #ffffff;
+    border-radius: 15px;
+    padding: 8px 30px;
+}
