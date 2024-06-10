@@ -122,7 +122,8 @@ a {
 @media (max-width: 600px) {
     p {
         font-size: 12px;
-        margin-inline: 50px; 
+        margin-inline: 50px;
+        margin-top: 15px; 
     }
 
     h1 {
