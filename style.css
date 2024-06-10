@@ -1,0 +1,205 @@
+body {
+    background-color: #000000;
+    font-family: 'Georgia', serif;
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    padding: 0;
+}
+
+p {
+    margin-bottom: 65px;
+    font-size: 14px;
+}
+
+h1 {
+    text-align: center;
+    color: #ffffff;
+    margin-bottom: 100px;
+}
+
+.romantic {
+    background-color: #9e1101;
+    border: 2px solid #cf6666;
+    border-radius: 15px;
+    padding: 20px;
+    max-width: 600px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 1.2em;
+    line-height: 1.5;
+}
+
+.heart img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #ff1818;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 30px;
+    transition: 0.5s;
+}
+
+.heart img:hover {
+    scale: 1.05;
+    border-radius: 10px;
+}
+
+a {
+    font-size: 1.2em;
+    color: #ffa600;
+    text-decoration: none;
+    border: 2px solid #d62323;
+    border-radius: 25px;
+    padding: 10px 20px;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.button a:hover {
+    background-color: #ce0f0f;
+}
+
+.characters a{
+    border: none;
+    position: absolute;
+}
+
+.characters a:hover {
+    filter: saturate(1.5);
+}
+
+.characters img {
+    border-radius: 6px;
+}
+
+.loid a{
+    top: 2%;
+    right: 75%;
+}
+
+.anya a{
+    top: 2%;
+    left: 44%;
+}
+.yor a{
+    top: 2%;
+    right:15%;
+}
+.hug a {
+    bottom: 15px;
+    right: 17%;
+}
+.cypher a {
+    bottom: 15px;
+    left: 17%;
+}
+
+.kitty a{
+    top: 33%;
+    right: 2%;
+}
+
+.kitty2 a{
+    top: 33%;
+    left: 3%;
+}
+
+.apaixonado a{
+    top: 60%;
+    right: 25%;
+}
+
+.carinho a{
+    top: 59%;
+    left: 23%;
+}
+
+@media (max-width: 600px) {
+    p {
+        font-size: 12px;
+        margin-inline: 50px; 
+    }
+
+    h1 {
+        font-size: 1.5em;
+    }
+
+    .romantic {
+        font-size: 1em;
+        padding: 15px;
+        width: 80%;
+    }
+
+    .heart img {
+        width: 150px;
+        height: 150px;
+    }
+
+    .button a {
+        font-size: 15px;
+        padding: 8px 12px;
+    }
+
+    .characters img {
+        width: 48px;
+        height: 48px;
+    }
+
+    .kitty a,
+    .kitty2 a {
+        top: 27%;
+    }
+
+    .kitty img,
+    .kitty2 img {
+        width: 80px;
+        height: 80px;
+    }
+
+    .apaixonado img {
+        width: 64px;
+        height: 64px;
+    }
+    .apaixonado a,
+    .carinho a {
+        top: 75%;
+    }
+    .apaixonado a {
+        right: 0px;
+    }
+    .carinho a {
+        left: 0px;
+    }
+    .hug img,
+    .cypher img {
+        width: 40px;
+        height: 40px;
+    }
+    .cypher a {
+        top: 93%;
+        left: 0;
+    }
+    .hug a {
+        top: 93%;
+        right: 0;
+    }
+
+    .anya a {
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .yor a{
+        top: 0;
+        right: 0;
+    }
+    .loid a{
+        top: 0;
+        left: 0;
+    }
+}
